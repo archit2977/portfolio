@@ -106,6 +106,7 @@ export default function AnimatedBackground() {
 
     let animationId: number;
     function animate() {
+      if (!ctx) return;
       ctx.clearRect(0, 0, width, height);
       drawCurves();
       drawDots();
