@@ -26,7 +26,7 @@ export default function Home() {
         <div className="backdrop-blur-md bg-black/60 rounded-2xl shadow-2xl p-10 max-w-2xl w-full">
           <header className="mb-12 text-center">
             <h1 className="text-5xl sm:text-6xl font-extrabold mb-6 text-white drop-shadow-lg">
-              Hey, I'm <span className="text-blue-500">Archit Mallik</span>
+              Hey, I&apos;m<span className="text-blue-500">Archit Mallik</span>
             </h1>
             <h2 className="text-2xl sm:text-3xl font-semibold text-gray-300 mb-4">
               I Build <span className="text-blue-400">Robust Backends</span> & <span className="text-blue-400">APIs</span> that Power Modern Applications
