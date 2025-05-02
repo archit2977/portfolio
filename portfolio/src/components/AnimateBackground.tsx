@@ -15,6 +15,7 @@ export default function AnimatedBackground() {
     let dpr = window.devicePixelRatio || 1;
 
     function resizeCanvas() {
+      if (!canvas) return;
       dpr = window.devicePixelRatio || 1;
       width = window.innerWidth;
       height = window.innerHeight;
