@@ -40,6 +40,7 @@ export default function AnimatedBackground() {
     }));
 
     function drawCurves() {
+      if (!ctx) return;
       ctx.save();
       ctx.strokeStyle = "rgba(255,255,255,0.06)";
       ctx.setLineDash([2, 10]);
@@ -57,6 +58,7 @@ export default function AnimatedBackground() {
     }
 
     function drawDots() {
+      if (!ctx) return;
       ctx.save();
       ctx.fillStyle = "rgba(255,255,255,0.08)";
       for (let y = 0; y < height; y += 24) {
@@ -70,6 +72,7 @@ export default function AnimatedBackground() {
     }
 
     function drawStreaks() {
+      if (!ctx) return;
       for (const s of streaks) {
         ctx.save();
         ctx.beginPath();
